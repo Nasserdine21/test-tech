@@ -187,3 +187,44 @@ footer .copyright .copy-child .flags{
     width: 12%;
     margin: 0 0.3rem;
 }
+footer .social{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    display: none;
+}
+
+footer .social p{
+    font-size: 1.3rem;
+    color: #7D7D7D;
+    font-family: sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+footer .social ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+footer .social ul li a{
+    color: white;
+    
+}
+
+footer .social ul li a svg{
+    font-size: 1.1rem;
+    padding: 1rem;
+    border: 0.1rem solid white;
+    border-radius: 50%;
+}
+footer .mobile-tag{
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+}
+footer .mobile, .mobile-tag{
+  display: none;
+}

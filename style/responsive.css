@@ -1,0 +1,138 @@
+@media screen and (min-width: 280px) and (max-width: 755px){
+    
+
+    .tagLine img {
+        width: 50%;
+    }
+
+    .server-down .child-image{
+        width: 100%;
+    }
+
+    .child-image img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .server-down .child-info {
+        
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+    }
+
+
+    .server-down .child-info h1{
+        
+      font-size: 1.9rem;
+      width: 90%;
+      margin: 1rem 0;
+    }
+
+    .server-down .child-info button{
+        
+        width: 55%;
+      }
+
+
+
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    
+
+    footer :nth-child(1) { order: 3; }
+    footer :nth-child(2) { order: 2; }
+    footer :nth-child(4) { order: 5; }
+    footer :nth-child(5) { order: 6; }
+    
+    footer .contact{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    footer .navigation{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    
+
+
+    footer .copyright{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .server-down{
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    footer .logo{
+        width: 90%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    footer .social{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 2rem;
+    }
+    footer .contact .fax{
+        display: none;
+    }
+
+    footer h3{
+        display: none;
+        padding: 1rem 0;
+    }
+    footer .mobile-tag{
+       display: block;
+    }
+    footer .mobile, .mobile-tag{
+      display: block;
+    }
+
+    footer .contact .contact-child {
+        
+        flex-direction: row-reverse;
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+
+    footer .copyright .copy-child {
+ 
+        width: 90%;
+    }
+
+    .flagLex {
+        
+        align-items: center;
+        flex-direction: row-reverse;
+        
+    }
+
+    footer .copyright .copy-child .flags {
+        width: 80%; 
+    }
+
+   
+}
+
+@media screen and (min-width: 756px) and (max-width: 990px){
+
+    .server-down{
+        padding-bottom: 3rem;
+    }
+}
